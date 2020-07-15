@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+
+.menu {
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 10px; 
+  background: red;
+}
+
+.menu  a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.menu a:hover {
+  background: firebrick;
+}
+.menu  #choice {
+	
+background: darkred;}
+
+
+body{  
+	background: url(../assets/tlo.jpg) #303030;
+	background-attachment: fixed;
+	opacity: 0.9;
+	background-size: cover;
+	position:relative;
+	font: 20px arial, tahoma, verdana, sans-serif ; 
+	color: white
+	
+	}
+p {text-align: justify;}
+section {
+		margin: 10px;
+		border: 10px solid white;
+		padding: 20px}
+		
+.todo {
+	margin: auto;
+		border: 10px solid white;
+		padding: 20px;
+width:300px;
+
+
+
+}
+
+
+@media all and (max-width: 800px) {
+  .menu {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .menu {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .menu a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .menu li:last-of-type a {
+    border-bottom: none;
+  }
+}

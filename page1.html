@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tytuł</title>
+</head>
+<body>
+    
+	<header>
+	<div class="content">
+	<ul class="menu"> 
+	<li><a   href="index.html">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>
+		index </a>
+	<li><a id="choice" href="page1.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M32 11.2l-16 16-16-16 2.72-2.72 13.28 13.12 13.28-13.12z"></path>
+        </svg>strona1</a>
+	<li><a href="page2.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>strona2</a> 	
+	<li><a href="page3.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>strona3</a> 	
+	
+	</ul>
+	</div>
+	</header>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<div class="todo">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="wpisz rzecz do zrobienia">
+ <button> <span onclick="newElement()">Add</span></button>
+
+
+<ul  id="myUL">
+  <li>Hit the gym</li>
+  <li>Pay bills</li>
+  <li>Meet George</li>
+  <li>Buy eggs</li>
+  <li>Read a book</li>
+  <li>Organize office</li>
+</ul>
+</div>
+<script>
+function newElement() 
+{
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  document.getElementById("myUL").appendChild(li);
+  document.getElementById("myInput").value = "";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+	<section>
+		<div class="content">
+			<h1>tekst</h1>
+			<p>Jest Dwadzieścia maja szlacheckich krakowskiéj najwyższych Podkomorzemu starożytnej Plac laty. Takim Worończańskim przejrzystość ciemnozieloném lokaj latem dojeżdżaczów łany rojem danie ręka. Znać bezprzytomnie nieczynności czary Mickiewiczów tyłu toczy szmer potrząsając Podniesionemi. Mówcy rogów żywą Który źwierzyny nieutrudza zniszczone Czuję napój plecie mimowolnie szanownych Trzech skończono. Domów najpiękniejszéj ubrana palcem Rzeczypospolitéj panów jacyś wojska niesą Najpiękniejszego. Żyje morzu różnica miesiąca wzroście osoba gałeczki daczy nudzi. Zagrabię duszę proste człowiek kamieniem upodobał wiodł dalsze czarował zaród liść przegrał. Niedostrzegł bezprzytomnie czary każe Twarz Niesiołowski Takie województwie duszy lancy mało progi. Niewzbrania ubrać siedli trybunałem skończyło granicznych złoty wesele staropolska Drzewa blasku małpowanie. teks2</p>
+			<button>przycisk</button>
+			</div>
+	</section>		
+	<section>		
+			<div class="content">
+			<h2>inny tekst</h2>
+			<p>Jest Dwadzieścia maja szlacheckich krakowskiéj najwyższych Podkomorzemu starożytnej Plac laty. Takim Worończańskim przejrzystość ciemnozieloném lokaj latem dojeżdżaczów łany rojem danie ręka. Znać bezprzytomnie nieczynności czary Mickiewiczów tyłu toczy szmer potrząsając Podniesionemi. Mówcy rogów żywą Który źwierzyny nieutrudza zniszczone Czuję napój plecie mimowolnie szanownych Trzech skończono. Domów najpiękniejszéj ubrana palcem Rzeczypospolitéj panów jacyś wojska niesą Najpiękniejszego. Żyje morzu różnica miesiąca wzroście osoba gałeczki daczy nudzi. Zagrabię duszę proste człowiek kamieniem upodobał wiodł dalsze czarował zaród liść przegrał. Niedostrzegł bezprzytomnie czary każe Twarz Niesiołowski Takie województwie duszy lancy mało progi. Niewzbrania ubrać siedli trybunałem skończyło granicznych złoty wesele staropolska Drzewa blasku małpowanie. </p>
+			<button>przycisk</button>
+			</div>
+	</section>
+	<section>		
+			<div class="content">
+			<h2>komletnie inny tekst</h2>
+			<p>Jest Dwadzieścia maja szlacheckich krakowskiéj najwyższych Podkomorzemu starożytnej Plac laty. Takim Worończańskim przejrzystość ciemnozieloném lokaj latem dojeżdżaczów łany rojem danie ręka. Znać bezprzytomnie nieczynności czary Mickiewiczów tyłu toczy szmer potrząsając Podniesionemi. Mówcy rogów żywą Który źwierzyny nieutrudza zniszczone Czuję napój plecie mimowolnie szanownych Trzech skończono. Domów najpiękniejszéj ubrana palcem Rzeczypospolitéj panów jacyś wojska niesą Najpiękniejszego. Żyje morzu różnica miesiąca wzroście osoba gałeczki daczy nudzi. Zagrabię duszę proste człowiek kamieniem upodobał wiodł dalsze czarował zaród liść przegrał. Niedostrzegł bezprzytomnie czary każe Twarz Niesiołowski Takie województwie duszy lancy mało progi. Niewzbrania ubrać siedli trybunałem skończyło granicznych złoty wesele staropolska Drzewa blasku małpowanie. </p>
+			<button>przycisk</button>
+			</div>
+	</section>
+	
+	<footer>
+	<div class="content">
+			<ul class="menu"> 
+	<li><a   href="index.html">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>
+		index </a>
+	<li><a id="choice" href="page1.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M32 11.2l-16 16-16-16 2.72-2.72 13.28 13.12 13.28-13.12z"></path>
+        </svg>strona1</a>
+	<li><a href="page2.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>strona2</a> 	
+	<li><a href="page3.html"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 32 32" {...props}>
+            <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+        </svg>strona3</a>	
+	
+	</ul>
+	</div>
+	</footer>
+	
+	
+<video><source src= "assets/film.mp4"> </video>
+
+
+</body>
+</html>
