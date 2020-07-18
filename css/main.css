@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+
 .menu {
   
   display: flex;
@@ -8,7 +9,9 @@
   justify-content: flex-end;
   list-style: none;
   margin: 10px; 
-  background: red;
+ background: rgb(83,6,6);
+background: linear-gradient(0deg, rgba(83,6,6,1) 0%, rgba(121,12,9,1) 44%, rgba(219,24,24,1) 100%);
+border-radius: 20px
 }
 
 .menu  a {
@@ -20,37 +23,76 @@
 
 .menu a:hover {
   background: firebrick;
+  border-radius: 20px
 }
 .menu  #choice {
 	
-background: darkred;}
+background: darkred;
+border-radius: 20px}
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 body{  
 	background: url(../assets/tlo.jpg) #303030;
 	background-attachment: fixed;
-	opacity: 0.9;
+	
 	background-size: cover;
 	position:relative;
 	font: 20px arial, tahoma, verdana, sans-serif ; 
-	color: white
+	color: white;
+	margin:0;
+		       padding:0;
+		       height:100%;
 	
 	}
 p {text-align: justify;}
 section {
+		
 		margin: 10px;
 		border: 10px solid white;
+		background: black;
+		opacity: 0.8;
 		padding: 20px}
 		
 .todo {
+	text-align: center;
 	margin: auto;
 		border: 10px solid white;
-		padding: 20px;
+		display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 width:300px;
 
 
 
 }
+
+video {	
+margin: auto;
+display: flex;
+  align-items: center;
+justify-content: center;
+width: 90%;
+   
+    display: block;}
+button {
+	
+cursor: pointer;
+font-size: 16px;
+background-color: white;
+color: darkred;
+border: 2px solid darkred;
+}
+
+button:hover {background-color: firebrick;
+color: white;}
+
+h1, h2, h3 {text-transform:uppercase;}
+
 
 
 @media all and (max-width: 800px) {
