@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
 <link rel="stylesheet" href="css/main.css" type="text/css" />
+<script src="scripts\app.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tytuł</title>
@@ -44,17 +45,7 @@
   
 </ul>
 </div>
-<script>
-function newElement() 
-{
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  document.getElementById("myUL").appendChild(li);
-  document.getElementById("myInput").value = "";
-}
-</script>
+
 
 	<footer>
 	<div class="content">
